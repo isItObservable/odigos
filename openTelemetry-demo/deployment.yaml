@@ -2145,7 +2145,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: "oteldemo.34.89.163.207.nip.io"
+    - host: "oteldemo.IP_TO_REPLACE.nip.io"
       http:
         paths:
           - pathType: Prefix

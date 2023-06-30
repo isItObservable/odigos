@@ -594,7 +594,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: "hipstershop.34.89.163.207.nip.io"
+    - host: "hipstershop.IP_TO_REPLACE.nip.io"
       http:
         paths:
           - pathType: Prefix
