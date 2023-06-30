@@ -5,7 +5,7 @@ metadata:
   namespace: odigos-system
 spec:
   data:
-    DYNATRACE_URL: https://bix24852.dev.dynatracelabs.com
+    DYNATRACE_URL: DT_TENANT_URL
   secretRef:
     name: dynatrace
   signals:
