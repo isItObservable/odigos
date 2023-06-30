@@ -83,7 +83,7 @@ chmod 777 deployment.sh
 kubectl port-forward svc/odigos-ui 3000:3000 -n odigos-system
 ```
 Select the namespace Hipster-shop and click on "everything in this namespace"
-<p align="center"><img src="/image/odigos_logo.png" width="40%" alt="odigos ui" /></p>
+<p align="center"><img src="/image/odigos-io.png" width="40%" alt="odigos ui" /></p>
 
 
 #### 2. From the cmdline
