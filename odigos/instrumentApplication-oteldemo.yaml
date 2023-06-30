@@ -1,0 +1,16 @@
+apiVersion: odigos.io/v1alpha1
+kind: InstrumentedApplication
+metadata:
+  name: deployment-opentelemetry-demo-accountingservice
+  namespace: otel-demo
+  ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Deployment
+      name: opentelemetry-demo-accountingservice
+spec:
+  languages:
+    - containerName: accountingservice
+      language: go
+      processName: /usr/src/app/accountingservice

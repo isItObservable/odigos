@@ -1,0 +1,15 @@
+apiVersion: odigos.io/v1alpha1
+kind: Destination
+metadata:
+  name: dynatrace
+  namespace: odigos-system
+spec:
+  data:
+    DYNATRACE_URL: https://bix24852.dev.dynatracelabs.com
+  secretRef:
+    name: dynatrace
+  signals:
+    - TRACES
+    - METRICS
+    - LOGS
+  type: dynatrace
